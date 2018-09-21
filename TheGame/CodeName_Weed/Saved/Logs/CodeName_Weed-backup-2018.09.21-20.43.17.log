@@ -1,0 +1,937 @@
+﻿Log file open, 09/21/18 20:32:45
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: CodeName_Weed
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.197986
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +2:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.210s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4510U CPU @ 2.00GHz, GPU: Intel(R) HD Graphics Family
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.09.21-18.32.45:736][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.21-18.32.45:736][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.09.21-18.32.45:750][  0]LogHAL: Display: Platform has ~ 8 GB [8516689920 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.09.21-18.32.45:750][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.09.21-18.32.45:750][  0]LogInit: Going up to parent DeviceProfile []
+[2018.09.21-18.32.45:751][  0]LogInit: Computer: DESKTOP-GF2H4JF
+[2018.09.21-18.32.45:751][  0]LogInit: User: RaptorInkStudio
+[2018.09.21-18.32.45:751][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.09.21-18.32.45:751][  0]LogInit: High frequency timer resolution =2.533199 MHz
+[2018.09.21-18.32.45:751][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.09.21-18.32.45:751][  0]LogMemory: Platform Memory Stats for Windows
+[2018.09.21-18.32.45:751][  0]LogMemory: Process Physical Memory: 99.77 MB used, 99.77 MB peak
+[2018.09.21-18.32.45:751][  0]LogMemory: Process Virtual Memory: 90.60 MB used, 90.60 MB peak
+[2018.09.21-18.32.45:751][  0]LogMemory: Physical Memory: 3306.68 MB used,  4815.47 MB free, 8122.15 MB total
+[2018.09.21-18.32.45:751][  0]LogMemory: Virtual Memory: 4622.75 MB used,  4815.47 MB free, 134217728.00 MB total
+[2018.09.21-18.32.45:775][  0]LogInit: Using OS detected language (en-GB).
+[2018.09.21-18.32.45:775][  0]LogInit: Using OS detected locale (en-ZA).
+[2018.09.21-18.32.45:776][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.09.21-18.32.46:225][  0]LogStreaming: Display: Took  0.451s to InitEngineTextLocalization.
+[2018.09.21-18.32.46:226][  0]LogInit: Setting process to per monitor DPI aware
+[2018.09.21-18.32.46:333][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.09.21-18.32.46:333][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.09.21-18.32.46:695][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.21-18.32.46:695][  0]LogD3D11RHI: D3D11 adapters:
+[2018.09.21-18.32.46:772][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 840M' (Feature Level 11_0)
+[2018.09.21-18.32.46:772][  0]LogD3D11RHI:       2010/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.09.21-18.32.46:780][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2018.09.21-18.32.46:780][  0]LogD3D11RHI:       112/0/2048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.09.21-18.32.46:783][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.09.21-18.32.46:783][  0]LogD3D11RHI:       0/0/4061 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.09.21-18.32.46:783][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.09.21-18.32.46:822][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.09.21-18.32.46:822][  0]LogD3D11RHI:     GPU DeviceId: 0x1341 (for the marketing name, search the web for "GPU Device Id")
+[2018.09.21-18.32.46:822][  0]LogWindows: EnumDisplayDevices:
+[2018.09.21-18.32.46:822][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2018.09.21-18.32.46:822][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.09.21-18.32.46:823][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2018.09.21-18.32.46:823][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.09.21-18.32.46:823][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 840M
+[2018.09.21-18.32.46:823][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.09.21-18.32.46:823][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.09.21-18.32.46:823][  0]LogRHI: Texture pool is 1407 MB (70% of 2010 MB)
+[2018.09.21-18.32.46:879][  0]LogD3D11RHI: Async texture creation enabled
+[2018.09.21-18.32.46:899][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.09.21-18.32.46:900][  0]LogShaderCompilers: Guid format shader working directory is -45 characters bigger than the processId version (../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Intermediate/Shaders/WorkingDirectory/7592/).
+[2018.09.21-18.32.46:900][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Raptor Ink Studio/AppData/Local/Temp/UnrealShaderWorkingDir/0DE88CC94D8C0411099C1B83B337352A/'.
+[2018.09.21-18.32.47:398][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.09.21-18.32.47:420][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.09.21-18.32.47:444][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.09.21-18.32.47:465][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.09.21-18.32.47:487][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.09.21-18.32.47:509][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.09.21-18.32.47:533][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.09.21-18.32.47:560][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.09.21-18.32.47:575][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:706][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.09.21-18.32.47:709][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.09.21-18.32.47:779][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.21-18.32.47:779][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.09.21-18.32.47:808][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.21-18.32.47:808][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.09.21-18.32.47:823][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.09.21-18.32.47:839][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.09.21-18.32.47:856][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.09.21-18.32.47:874][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.09.21-18.32.47:885][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.09.21-18.32.47:885][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.09.21-18.32.47:988][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.09.21-18.32.47:988][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.09.21-18.32.47:988][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.09.21-18.32.49:129][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.09.21-18.32.49:235][  0]LogDerivedDataCache: Loaded boot cache 0.11s 71MB C:/Users/Raptor Ink Studio/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.21-18.32.49:235][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Raptor Ink Studio/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.09.21-18.32.49:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.09.21-18.32.49:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.09.21-18.32.49:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.09.21-18.32.49:236][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.09.21-18.32.49:252][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.09.21-18.32.49:264][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Raptor Ink Studio/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.09.21-18.32.49:264][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.09.21-18.32.49:264][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.09.21-18.32.49:289][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.09.21-18.32.49:290][  0]LogSlate: Using FreeType 2.6.0
+[2018.09.21-18.32.49:291][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.09.21-18.32.49:384][  0]LogAssetRegistry: FAssetRegistry took 0.0277 seconds to start up
+[2018.09.21-18.32.49:904][  0]LogInit: Selected Device Profile: [Windows]
+[2018.09.21-18.32.50:100][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.09.21-18.32.50:106][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.09.21-18.32.50:107][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.09.21-18.32.50:107][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.09.21-18.32.50:107][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.09.21-18.32.50:126][  0]LogNetVersion: CodeName_Weed 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1948222874)
+[2018.09.21-18.32.50:894][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.203607 seconds
+[2018.09.21-18.32.50:903][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.09.21-18.32.50:903][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.09.21-18.32.50:903][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.09.21-18.32.52:221][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.09.21-18.32.52:295][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.09.21-18.32.52:489][  0]SourceControl: Source control is disabled
+[2018.09.21-18.32.52:490][  0]SourceControl: Source control is disabled
+[2018.09.21-18.32.52:492][  0]SourceControl: Source control is disabled
+[2018.09.21-18.32.52:494][  0]SourceControl: Source control is disabled
+[2018.09.21-18.32.52:715][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.09.21-18.32.52:795][  0]LogOcInput: OculusInput pre-init called
+[2018.09.21-18.32.52:888][  0]LogEngine: Initializing Engine...
+[2018.09.21-18.32.52:890][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.09.21-18.32.52:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.21-18.32.52:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.21-18.32.52:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.21-18.32.52:892][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.21-18.32.53:223][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.09.21-18.32.53:251][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.09.21-18.32.53:266][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.09.21-18.32.53:479][  0]LogInit: FAudioDevice initialized.
+[2018.09.21-18.32.53:479][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.09.21-18.32.53:890][  0]LogDerivedDataCache: Saved boot cache 0.41s 71MB C:/Users/Raptor Ink Studio/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.09.21-18.32.53:894][  0]LogInit: Texture streaming: Enabled
+[2018.09.21-18.32.53:922][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.09.21-18.32.53:952][  0]LogInit: Transaction tracking system initialized
+[2018.09.21-18.32.54:017][  0]BlueprintLog: New page: Editor Load
+[2018.09.21-18.32.54:315][  0]LocalizationService: Localization service is disabled
+[2018.09.21-18.32.54:731][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.09.21-18.32.54:731][  0]LogCook: Display: Mobile HDR setting 1
+[2018.09.21-18.32.54:731][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.09.21-18.32.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.09.21-18.32.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.09.21-18.32.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.09.21-18.32.54:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.09.21-18.32.55:010][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/' took 0.01s
+[2018.09.21-18.32.55:029][  0]SourceControl: Source control is disabled
+[2018.09.21-18.32.55:031][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.20/FeaturePacks/StarterContent.upack)
+[2018.09.21-18.32.55:332][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2018.09.21-18.32.55:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2018.09.21-18.32.55:481][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2018.09.21-18.32.55:718][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2018.09.21-18.32.55:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2018.09.21-18.32.55:946][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2018.09.21-18.32.56:156][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2018.09.21-18.32.56:220][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2018.09.21-18.32.56:265][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2018.09.21-18.32.56:613][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2018.09.21-18.32.56:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2018.09.21-18.32.56:967][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2018.09.21-18.32.57:099][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Collapse01.uasset"
+[2018.09.21-18.32.57:330][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Collapse02.uasset"
+[2018.09.21-18.32.57:379][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2018.09.21-18.32.57:404][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Explosion01.uasset"
+[2018.09.21-18.32.57:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Explosion02.uasset"
+[2018.09.21-18.32.57:514][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2018.09.21-18.32.57:573][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Fire01.uasset"
+[2018.09.21-18.32.57:595][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2018.09.21-18.32.57:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2018.09.21-18.32.57:665][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2018.09.21-18.32.57:679][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Light01.uasset"
+[2018.09.21-18.32.57:697][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2018.09.21-18.32.57:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Light02.uasset"
+[2018.09.21-18.32.57:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2018.09.21-18.32.57:795][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Smoke01.uasset"
+[2018.09.21-18.32.57:888][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2018.09.21-18.32.57:935][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2018.09.21-18.32.58:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2018.09.21-18.32.58:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2018.09.21-18.32.58:337][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2018.09.21-18.32.58:395][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2018.09.21-18.32.58:467][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2018.09.21-18.32.58:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Steam01.uasset"
+[2018.09.21-18.32.58:683][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2018.09.21-18.32.58:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2018.09.21-18.32.58:813][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2018.09.21-18.32.58:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2018.09.21-18.32.58:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2018.09.21-18.32.58:878][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2018.09.21-18.32.58:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2018.09.21-18.32.58:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2018.09.21-18.32.58:977][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2018.09.21-18.32.59:071][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2018.09.21-18.32.59:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2018.09.21-18.32.59:120][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2018.09.21-18.32.59:154][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2018.09.21-18.32.59:176][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2018.09.21-18.32.59:219][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2018.09.21-18.32.59:271][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2018.09.21-18.32.59:320][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2018.09.21-18.33.08:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2018.09.21-18.33.08:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2018.09.21-18.33.08:959][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2018.09.21-18.33.09:018][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/Minimal_Default.umap"
+[2018.09.21-18.33.09:113][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2018.09.21-18.33.09:198][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/StarterMap.umap"
+[2018.09.21-18.33.11:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2018.09.21-18.33.11:650][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2018.09.21-18.33.11:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2018.09.21-18.33.11:730][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2018.09.21-18.33.11:757][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2018.09.21-18.33.11:803][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2018.09.21-18.33.11:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2018.09.21-18.33.11:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2018.09.21-18.33.11:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2018.09.21-18.33.11:910][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2018.09.21-18.33.11:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2018.09.21-18.33.11:948][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2018.09.21-18.33.12:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2018.09.21-18.33.12:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2018.09.21-18.33.12:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2018.09.21-18.33.12:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2018.09.21-18.33.12:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2018.09.21-18.33.12:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2018.09.21-18.33.12:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Glass.uasset"
+[2018.09.21-18.33.12:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2018.09.21-18.33.12:500][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2018.09.21-18.33.12:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2018.09.21-18.33.12:575][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2018.09.21-18.33.12:585][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2018.09.21-18.33.12:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2018.09.21-18.33.12:633][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2018.09.21-18.33.12:663][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2018.09.21-18.33.12:675][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2018.09.21-18.33.12:717][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2018.09.21-18.33.12:728][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2018.09.21-18.33.12:773][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2018.09.21-18.33.12:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2018.09.21-18.33.12:832][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2018.09.21-18.33.12:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2018.09.21-18.33.12:906][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2018.09.21-18.33.12:936][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2018.09.21-18.33.12:964][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2018.09.21-18.33.12:976][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2018.09.21-18.33.13:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2018.09.21-18.33.13:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2018.09.21-18.33.13:085][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2018.09.21-18.33.13:096][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2018.09.21-18.33.13:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2018.09.21-18.33.13:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2018.09.21-18.33.13:164][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2018.09.21-18.33.13:194][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Explosion.uasset"
+[2018.09.21-18.33.13:238][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Fire.uasset"
+[2018.09.21-18.33.13:275][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Smoke.uasset"
+[2018.09.21-18.33.13:308][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Sparks.uasset"
+[2018.09.21-18.33.13:352][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2018.09.21-18.33.13:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2018.09.21-18.33.13:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2018.09.21-18.33.13:463][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2018.09.21-18.33.13:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2018.09.21-18.33.13:505][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2018.09.21-18.33.13:516][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2018.09.21-18.33.13:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2018.09.21-18.33.13:662][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2018.09.21-18.33.13:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2018.09.21-18.33.13:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2018.09.21-18.33.13:925][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/MaterialSphere.uasset"
+[2018.09.21-18.33.13:954][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Bush.uasset"
+[2018.09.21-18.33.13:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Chair.uasset"
+[2018.09.21-18.33.14:017][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2018.09.21-18.33.14:054][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Couch.uasset"
+[2018.09.21-18.33.14:081][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Door.uasset"
+[2018.09.21-18.33.14:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2018.09.21-18.33.14:116][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2018.09.21-18.33.14:150][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2018.09.21-18.33.14:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2018.09.21-18.33.14:226][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2018.09.21-18.33.14:259][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2018.09.21-18.33.14:272][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2018.09.21-18.33.14:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Rock.uasset"
+[2018.09.21-18.33.14:295][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Shelf.uasset"
+[2018.09.21-18.33.14:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Stairs.uasset"
+[2018.09.21-18.33.14:321][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_Statue.uasset"
+[2018.09.21-18.33.14:390][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_TableRound.uasset"
+[2018.09.21-18.33.14:402][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2018.09.21-18.33.14:492][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2018.09.21-18.33.14:519][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2018.09.21-18.33.14:542][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2018.09.21-18.33.14:566][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2018.09.21-18.33.14:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2018.09.21-18.33.14:612][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2018.09.21-18.33.14:624][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2018.09.21-18.33.14:635][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2018.09.21-18.33.14:646][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2018.09.21-18.33.14:657][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2018.09.21-18.33.14:680][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2018.09.21-18.33.14:713][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2018.09.21-18.33.14:769][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2018.09.21-18.33.14:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2018.09.21-18.33.14:811][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2018.09.21-18.33.14:824][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2018.09.21-18.33.14:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2018.09.21-18.33.14:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2018.09.21-18.33.14:989][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2018.09.21-18.33.15:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2018.09.21-18.33.15:199][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2018.09.21-18.33.15:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2018.09.21-18.33.15:264][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2018.09.21-18.33.15:274][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2018.09.21-18.33.15:298][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2018.09.21-18.33.15:323][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2018.09.21-18.33.15:344][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2018.09.21-18.33.15:368][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2018.09.21-18.33.15:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2018.09.21-18.33.15:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2018.09.21-18.33.15:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2018.09.21-18.33.15:602][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2018.09.21-18.33.15:739][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2018.09.21-18.33.15:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2018.09.21-18.33.16:035][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2018.09.21-18.33.16:200][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2018.09.21-18.33.16:383][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2018.09.21-18.33.16:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2018.09.21-18.33.17:119][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2018.09.21-18.33.17:343][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2018.09.21-18.33.17:460][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2018.09.21-18.33.17:622][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2018.09.21-18.33.17:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2018.09.21-18.33.18:215][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2018.09.21-18.33.18:410][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2018.09.21-18.33.18:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2018.09.21-18.33.18:960][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2018.09.21-18.33.19:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2018.09.21-18.33.19:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2018.09.21-18.33.19:597][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2018.09.21-18.33.19:693][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2018.09.21-18.33.19:794][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2018.09.21-18.33.20:075][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2018.09.21-18.33.20:208][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2018.09.21-18.33.20:417][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2018.09.21-18.33.21:138][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2018.09.21-18.33.21:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2018.09.21-18.33.22:091][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2018.09.21-18.33.22:413][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2018.09.21-18.33.22:605][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2018.09.21-18.33.22:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2018.09.21-18.33.23:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2018.09.21-18.33.23:177][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2018.09.21-18.33.23:834][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2018.09.21-18.33.24:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2018.09.21-18.33.24:108][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2018.09.21-18.33.24:225][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2018.09.21-18.33.24:347][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2018.09.21-18.33.24:440][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2018.09.21-18.33.24:529][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2018.09.21-18.33.24:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Door_M.uasset"
+[2018.09.21-18.33.24:797][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Door_N.uasset"
+[2018.09.21-18.33.25:064][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2018.09.21-18.33.25:137][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2018.09.21-18.33.25:161][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2018.09.21-18.33.25:245][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2018.09.21-18.33.25:363][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2018.09.21-18.33.25:425][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2018.09.21-18.33.25:449][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2018.09.21-18.33.25:641][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2018.09.21-18.33.25:944][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2018.09.21-18.33.26:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2018.09.21-18.33.26:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2018.09.21-18.33.26:904][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2018.09.21-18.33.27:283][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2018.09.21-18.33.27:477][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2018.09.21-18.33.27:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2018.09.21-18.33.27:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2018.09.21-18.33.28:236][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2018.09.21-18.33.28:353][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2018.09.21-18.33.28:487][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2018.09.21-18.33.28:559][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2018.09.21-18.33.28:994][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2018.09.21-18.33.29:278][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2018.09.21-18.33.29:527][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2018.09.21-18.33.29:645][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2018.09.21-18.33.29:828][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2018.09.21-18.33.29:912][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2018.09.21-18.33.30:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2018.09.21-18.33.30:541][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2018.09.21-18.33.30:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2018.09.21-18.33.30:973][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2018.09.21-18.33.31:159][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2018.09.21-18.33.31:374][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2018.09.21-18.33.31:689][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2018.09.21-18.33.32:010][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2018.09.21-18.33.32:590][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2018.09.21-18.33.32:670][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2018.09.21-18.33.33:103][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2018.09.21-18.33.33:385][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2018.09.21-18.33.33:629][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2018.09.21-18.33.33:669][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2018.09.21-18.33.33:699][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2018.09.21-18.33.33:736][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2018.09.21-18.33.33:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2018.09.21-18.33.33:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2018.09.21-18.33.34:009][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2018.09.21-18.33.34:511][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2018.09.21-18.33.34:784][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2018.09.21-18.33.34:885][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2018.09.21-18.33.34:999][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2018.09.21-18.33.35:179][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2018.09.21-18.33.35:267][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2018.09.21-18.33.35:310][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Water_M.uasset"
+[2018.09.21-18.33.35:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Water_N.uasset"
+[2018.09.21-18.33.35:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2018.09.21-18.33.36:244][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2018.09.21-18.33.36:315][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2018.09.21-18.33.36:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2018.09.21-18.33.36:568][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2018.09.21-18.33.36:749][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2018.09.21-18.33.37:273][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2018.09.21-18.33.37:630][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2018.09.21-18.33.37:901][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2018.09.21-18.33.39:046][  0]LogRenderer: Reallocating scene render targets to support 256x256 Format 10 NumSamples 1 (Frame:1).
+[2018.09.21-18.33.39:281][  0]LogSavePackage: Moving '../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Saved/Floor_400x40026A426DC4393133B4DC385AAF2F65E63.tmp' to '../../../../../../Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2018.09.21-18.33.39:286][  0]LogFeaturePack: Warning: Inserted 1 feature packs
+[2018.09.21-18.33.39:293][  0]LightingResults: New page: Lighting Build
+[2018.09.21-18.33.39:298][  0]MapCheck: New page: Map Check
+[2018.09.21-18.33.39:298][  0]LightingResults: New page: Lighting Build
+[2018.09.21-18.33.41:785][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.09.21-18.33.41:805][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.09.21-18.33.41:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.09.21-18.33.41:954][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119,924ms to complete.
+[2018.09.21-18.33.41:954][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.661
+[2018.09.21-18.33.42:975][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-18.33.42:984][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-18.33.42:993][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-18.33.43:001][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.09.21-18.33.43:109][  0]LogCollectionManager: Loaded 0 collections in 0.004907 seconds
+[2018.09.21-18.33.43:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Saved/Collections/' took 0.01s
+[2018.09.21-18.33.43:264][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/Developers/RaptorInkStudio/Collections/' took 0.01s
+[2018.09.21-18.33.43:265][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Raptor Ink Studio/Documents/Unreal Projects/CodeName_Weed/TheGame/CodeName_Weed/Content/Collections/' took 0.01s
+[2018.09.21-18.33.43:265][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.09.21-18.33.43:278][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 2572 classes and 603 folders.
+[2018.09.21-18.33.43:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.21-18.33.43:379][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.09.21-18.33.43:489][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.09.21-18.33.50:080][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.09.21-18.33.50:305][  0]LogSlate: Took 0.000367 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.09.21-18.33.50:312][  0]LogSlate: Took 0.000381 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.09.21-18.33.50:530][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.CodeNameWeed
+[2018.09.21-18.33.50:530][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.21-18.33.50:530][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.20
+[2018.09.21-18.33.50:530][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.20\Engine\Binaries\DotNET\IOS
+[2018.09.21-18.33.50:530][  0]LogTemp: BranchPath = DESKTOP-GF2H4JF/C/Program Files/Epic Games/UE_4.20/Engine/Binaries --- GameBranchPath = DESKTOP-GF2H4JF/C/Program Files/Epic Games/UE_4.20/Engine/Binaries
+[2018.09.21-18.33.50:530][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Raptor Ink Studio\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.09.21-18.33.50:530][  0]LogSlate: Took 0.201804 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.09.21-18.33.50:981][  0]LogRenderer: Reallocating scene render targets to support 556x372 Format 10 NumSamples 1 (Frame:1).
+[2018.09.21-18.33.51:055][  0]LogSlate: Took 0.000435 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.21-18.33.51:289][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.09.21-18.33.51:289][  0]LogLoad: (Engine Initialization) Total time: 68.38 seconds
+[2018.09.21-18.33.51:290][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.09.21-18.33.51:377][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.09.21-18.33.51:377][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.21-18.33.51:565][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.09.21-18.33.52:504][ 22]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.09.21-18.34.01:910][550]LogAssetRegistry: Asset discovery search completed in 72.5492 seconds
+[2018.09.21-18.34.01:913][550]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.09.21-18.34.01:913][550]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2018.09.21-18.34.06:159][645]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.09.21-18.34.06:405][655]LogSlate: Window 'CodeName_Weed - Unreal Editor' being destroyed
+[2018.09.21-18.34.06:406][655]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.09.21-18.34.06:678][656]Cmd: QUIT_EDITOR
+[2018.09.21-18.34.06:728][656]LogExit: Preparing to exit.
+[2018.09.21-18.34.07:422][656]LogExit: Editor shut down
+[2018.09.21-18.34.07:422][656]LogExit: Transaction tracking system shut down
+[2018.09.21-18.34.07:983][656]LogExit: Object subsystem successfully closed.
+[2018.09.21-18.34.08:000][656]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.09.21-18.34.08:004][656]LogD3D11RHI: Shutdown
+[2018.09.21-18.34.08:004][656]LogD3D11RHI: CleanupD3DDevice
+[2018.09.21-18.34.08:005][656]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.09.21-18.34.08:051][656]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2018.09.21-18.34.08:051][656]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (610)
+[2018.09.21-18.34.08:051][656]LogModuleManager: Shutting down and abandoning module SceneOutliner (608)
+[2018.09.21-18.34.08:051][656]LogModuleManager: Shutting down and abandoning module AddContentDialog (606)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module WidgetCarousel (605)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module EditorWidgets (602)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module CollectionManager (600)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2018.09.21-18.34.08:052][656]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2018.09.21-18.34.08:053][656]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2018.09.21-18.34.08:054][656]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2018.09.21-18.34.08:054][656]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2018.09.21-18.34.08:422][656]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2018.09.21-18.34.08:476][656]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2018.09.21-18.34.08:477][656]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2018.09.21-18.34.08:574][656]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2018.09.21-18.34.08:575][656]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2018.09.21-18.34.08:578][656]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2018.09.21-18.34.08:579][656]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2018.09.21-18.34.08:680][656]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2018.09.21-18.34.08:781][656]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2018.09.21-18.34.08:782][656]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2018.09.21-18.34.08:782][656]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2018.09.21-18.34.08:782][656]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2018.09.21-18.34.08:782][656]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2018.09.21-18.34.08:782][656]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2018.09.21-18.34.08:783][656]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2018.09.21-18.34.08:785][656]LogModuleManager: Shutting down and abandoning module Media (243)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2018.09.21-18.34.08:791][656]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2018.09.21-18.34.08:792][656]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module Core (188)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2018.09.21-18.34.08:794][656]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2018.09.21-18.34.08:935][656]LogDerivedDataCache: Shutdown
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2018.09.21-18.34.08:935][656]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2018.09.21-18.34.08:936][656]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2018.09.21-18.34.08:936][656]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2018.09.21-18.34.08:937][656]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2018.09.21-18.34.08:937][656]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2018.09.21-18.34.08:944][656]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2018.09.21-18.34.08:945][656]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2018.09.21-18.34.08:946][656]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2018.09.21-18.34.08:947][656]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2018.09.21-18.34.08:978][656]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2018.09.21-18.34.08:978][656]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.09.21-18.34.08:978][656]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB2DD780F-4CA7-542F-0056-43BF411006A8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=ac6778574a2653c64ce8b98b8ee02699%7C6419b1c57b9648d6a9f53ab8177e3543%7C8e071a98-d2f9-4cb3-a271-3f27157f99c1&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.09.21-18.34.08:978][656]LogHttp: Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.09.21-18.34.09:511][656]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2018.09.21-18.34.09:512][656]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.09.21-18.34.09:512][656]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.09.21-18.34.09:513][656]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.09.21-18.34.09:516][656]LogExit: Exiting.
+[2018.09.21-18.34.09:552][656]Log file closed, 09/21/18 20:34:09
